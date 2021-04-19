@@ -1,37 +1,144 @@
-## Welcome to GitHub Pages
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="keywords" content="Cong Fang"> 
+<meta name="description" content="Cong Fang's home page">
+<link rel="stylesheet" href="jemdoc.css" type="text/css" />
+<title>Cong Fang</title>
+<script type="text/javascript">
 
-You can use the [editor on GitHub](https://github.com/congfang-ml/congfang-ml.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-39824124-1']);
+  _gaq.push(['_trackPageview']);
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+  
+  </script>
+</head>
+<body >
 
-### Markdown
+<div id="layout-content" style="margin-top:25px">
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+<table>
+	<tbody>
+		<tr>
+			<td width="670">
+				<div id="toptitle">					
+					<h1>Cong Fang <h1>
+				</div>
 
-```markdown
-Syntax highlighted code block
+				<h3>Postdoctoral Researcher</h3>
+				<p>University of Pennsylvania</p>
+				<p>
+					</br>
+					Email: fangcong at pku dot edu dot cn
+				</p>
+			</td>
+			<td>
+				<img src="congfang.jpg" border="0" width="150">
+			</td>
+		<tr>
+	</tbody>
+</table>
 
-# Header 1
-## Header 2
-### Header 3
+<h2>Overview</h2>
+<p>
+	I am now a postdoctoral researcher at University of Pennsylvania, hosted by Prof. <a href="http://stat.wharton.upenn.edu/~suw/">Weijie Su</a>. Previously, I was  a postdoctoral researcher at Princeton University, hosted by Prof. <a href="https://jasondlee88.github.io/">Jason D. Lee</a>. Before that, 
+I received my PhD at Peking Univerity in 2019, advised by Prof. <a href="https://zhouchenlin.github.io/">Zhouchen Lin</a>. I  also closely work with Prof. <a href="http://tongzhang-ml.org/">Tong Zhang</a>.
+	
+</p>
+<p>
+	My research interests include machine learning algorithms and theory. I currently  focus on the foundation of deep learning and various aspects of optimization. 
+</p>
+<p style="color:red">I am recruiting self-motivated interns who have strong mathematical abilities or coding skills to work with me. If you are interested, please send your detailed CV to my email.  </p>
 
-- Bulleted
-- List
+ <br>
+<br>
 
-1. Numbered
-2. List
+<p>
+<font size=4.5>[<a href="#Selected Papers">Selected Papers</a>]&nbsp&nbsp[<a href="#Books">Books</a>]&nbsp&nbsp[<a href="#Teaching">Teaching</a>]&nbsp&nbsp[<a href="#Students">Students</a>]</font> 
+</p>
+ <br>
+<br>
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
+<h2><A name="Selected Papers"><font color="black">Selected papers</font></A> <small>[<a href="https://scholar.google.com/citations?user=N2M9RPoAAAAJ&hl=en">Google Scholar</a>]</small></h2>
+<ul>
+	<li>
+			Layer-Peeled Model: Toward Understanding Well-Trained Deep Neural Networks [<a href="https://arxiv.org/abs/2101.12699">arXiv</a>]</br> 
+			<b>Cong Fang</b>, Hangfeng He, Qi Long, and Weijie Su <small>(<b>&alpha;-&beta; order</b>)</small></br>
+		 Submitted to <em>Proceedings of the National Academy of Sciences </em> (<b>PNAS</b>), 2021 
+	</li>
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+	
+	<li>
+			Modeling from Features: a Mean-field Framework for Over-parameterized Deep Neural Network [<a href="https://arxiv.org/abs/2007.01452">arXiv</a>]</br> 
+			<b>Cong Fang</b>, Pengkun Yang, Jason D. Lee, and Tong Zhang <small>(<b>&alpha;-&beta; order</b>)</small>, 2020 </br>
+		
+	</li>
+	
+		<li>
+			Sharp Analysis for Nonconvex SGD Escaping from Saddle Points  [<a href="http://proceedings.mlr.press/v99/fang19a.html">paper</a>][<a href="https://arxiv.org/abs/1902.00247">arXiv</a>]</br> 
+			<b>Cong Fang</b>, Zhouchen Lin, and Tong Zhang <small>(<b>&alpha;-&beta; order</b>)</small></br>
+		  <em>Annual Conference on Learning Theory </em> (<b>COLT</b>), 2019
+	</li>
+	
+	
+		<li>
+			SPIDER: Near-Optimal Non-Convex Optimization via Stochastic Path-Integrated Differential Estimator
+			[<a href="https://papers.nips.cc/paper/2018/hash/1543843a4723ed2ab08e18053ae6dc5b-Abstract.html">paper</a>][<a href="https://arxiv.org/abs/1807.01695">arXiv</a>]</br> 
+			<b>Cong Fang</b>,  Chris Junchi Li, Zhouchen Lin, and Tong Zhang <small>(<b>&alpha;-&beta; order</b>)</small></br>
+		  <em>Advances in Neural Information Processing Systems </em> (<b>NeurIPS</b>), 2018
+	</li>
+	
+	
+			<li>
+			Mathematical Models of Overparameterized Neural Networks
+		[<a href="https://arxiv.org/abs/2012.13982">arXiv</a>]</br> 
+			<b>Cong Fang</b>,  Hanze Dong, and Tong Zhang </br>
+		  <em>Proceedings of the IEEE </em> (<b>PIEEE</b>), 2021
+	</li>
+	
+				<li>
+			Accelerated First-Order Optimization Algorithms for Machine Learning
+		[<a href="https://ieeexplore.ieee.org/document/9146135">paper</a>]</br> 
+			Huan  Li*, <b>Cong Fang*</b>,  and Zhouchen Lin  <small>(<b>*equal contribution</b>)</small> </br>
+		  <em>Proceedings of the IEEE </em> (<b>PIEEE</b>), 2020
+	</li>
+	
 
-### Jekyll Themes
+</ul>
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/congfang-ml/congfang-ml.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
+<h2><A name="Books"><font color="black">Books</font></A></h2>
+<ul>
+	<li>
+			Accelerated Optimization in Machine Learning: First-Order Algorithms [<a href="https://www.springer.com/gp/book/9789811529092">book</a>]</br> 
+			Zhouchen Lin, Huan Li, and <b>Cong Fang</b>, Springer, 2020</br>		 
+		 <em>I am in charge of introducing stochastic and distributed algorithms (Chapters 5 and 6)<em>
+	</li>
+</ul>
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+
+
+<h2><A name="Teaching"><font color="black">Teaching</front></A></h2>
+
+<ul>
+    None
+</ul>
+<h2><A name="Students"><font color="black">Students</front></A></h2>
+<ul>
+    None
+</ul>
+
+
+<div id="footer">
+	<div id="footer-text"></div>
+</div>
+</div>
+</body>
+</html>
