@@ -48,66 +48,81 @@
 <h2>Overview</h2>
 <p>
 	I am now a postdoctoral researcher at University of Pennsylvania, hosted by Prof. <a href="http://stat.wharton.upenn.edu/~suw/">Weijie Su</a> and <a href="https://www.med.upenn.edu/long-lab/">Qi Long</a>. Previously, I was  a postdoctoral researcher at Princeton University, hosted by Prof. <a href="https://jasondlee88.github.io/">Jason D. Lee</a>. Before that, 
-I received my PhD at Peking Univerity in 2019, advised by Prof. <a href="https://zhouchenlin.github.io/">Zhouchen Lin</a>. I  also closely work with Prof. <a href="http://tongzhang-ml.org/">Tong Zhang</a>.
+I received my Ph.D. at Peking Univerity in 2019, advised by Prof. <a href="https://zhouchenlin.github.io/">Zhouchen Lin</a>. I  also  work closely with Prof. <a href="http://tongzhang-ml.org/">Tong Zhang</a> at HKUST.
 	
 </p>
 <p>
-	My research interests include machine learning algorithms and theory. I currently  focus on the foundation of deep learning and various aspects of optimization. 
-</p>
-<p style="color:red">I am recruiting self-motivated interns who have strong mathematical abilities or coding skills to work with me. If you are interested, please send your detailed CV to my email.  </p>
+	My research interests are broadly in the machine learning algorithms and theory. I currently  work on various aspects of optimization and the foundation of deep learning. The topics  include, but are not limited to, 
+	<ul style="list-style-type:square; margin-top:13px;margin-bottom:0px;">
+		<li>
+			<b>Optimization</b>:  non-convex opt., stochastic opt., distributed/federated opt.,  min-max opt., etc. I focus on designing faster algorithms and provide  more realistic upper/lower complexity bounds. 
+			</li>
+		<li>
+			<b>Deep Learning Theory</b>: complexity analysis, feature/representation learning analysis, etc.  I am interested in proposing new models or analyses to have a better theoretical understanding of neural networks.
+		</li>
+		<li>
+			<b>Applications </b>: adversarial attacks/defense, auto-ml, model compression, etc. 
+	</li>
+	</ul>
+	
+</p><br>
+<p style="color:red">I am recruiting self-motivated Ph.D. and interns who have strong mathematical abilities or coding skills to work with me (you do not need to come from mathematics department). If you are interested, please send your detailed CV to my email. You can be  also co-advised by Prof. <a href="https://zhouchenlin.github.io/"><font color="red">Zhouchen Lin</font></a> and may  have the opportunity to work with my other advisors, in particular Prof. <a href="http://tongzhang-ml.org/"><font color="red">Tong Zhang</font></a> and <a href="http://stat.wharton.upenn.edu/~suw/"><font color="red">Weijie Su</font></a>.   </p>
 
  <br>
 <br>
 
 <p>
-<font size=4.5>[<a href="#Selected Papers">Selected papers</a>]&nbsp&nbsp[<a href="#Books">Books</a>]&nbsp&nbsp[<a href="#Teaching">Teaching</a>]&nbsp&nbsp[<a href="#Students">Students</a>]</font> 
+<font size=4.5>[<a href="#Selected Papers">Selected Papers</a>]&nbsp&nbsp[<a href="#Books">Books</a>]&nbsp&nbsp[<a href="#Selected Talks">Selected Talks</a>]</font> 
 </p>
  <br>
-<br>
 
 
-<h2><A name="Selected Papers"><font color="black">Selected papers</font></A> <small>[<a href="https://scholar.google.com/citations?user=N2M9RPoAAAAJ&hl=en">Google Scholar</a>]</small></h2>
+
+<h2><A name="Selected Papers"><font color="black">Selected Papers</font></A> <small>[<a href=paper-list.html>Full List</a>][<a href="https://scholar.google.com/citations?user=N2M9RPoAAAAJ&hl=en">Google Scholar</a>]</small></h2>
 <ul>
 	<li>
 			Layer-Peeled Model: Toward Understanding Well-Trained Deep Neural Networks [<a href="https://arxiv.org/abs/2101.12699">arXiv</a>]</br> 
-			<b>Cong Fang</b>, Hangfeng He, Qi Long, and Weijie Su <small>(<b>&alpha;-&beta; order</b>)</small></br>
-		 Submitted to <em>Proceedings of the National Academy of Sciences </em> (<b>PNAS</b>), 2021 
+			<b>Cong Fang</b>, Hangfeng He, Qi Long, and Weijie Su <small>(<b>&alpha;-&beta; order</b>)</small>,</br>
+		<em>Proceedings of the National Academy of Sciences </em> (<b>top journal: PNAS</b>), 2021, revision. </br>
+		Propose a simple model to explain and predict some behaviors of neural networks.  
 	</li>
 
 	
 	<li>
 			Modeling from Features: a Mean-field Framework for Over-parameterized Deep Neural Network [<a href="https://arxiv.org/abs/2007.01452">arXiv</a>]</br> 
-			<b>Cong Fang</b>, Pengkun Yang, Jason D. Lee, and Tong Zhang <small>(<b>&alpha;-&beta; order</b>)</small>, 2020 </br>
-		
+			<b>Cong Fang</b>, Pengkun Yang, Jason D. Lee, and Tong Zhang <small>(<b>&alpha;-&beta; order</b>)</small>, 2020. </br>
+		Provide a proof to show that  Gradient Descent finds a global minimum for deepnets in the mean-field regime. 
 	</li>
 	
 		<li>
 			Sharp Analysis for Nonconvex SGD Escaping from Saddle Points  [<a href="http://proceedings.mlr.press/v99/fang19a.html">paper</a>][<a href="https://arxiv.org/abs/1902.00247">arXiv</a>]</br> 
-			<b>Cong Fang</b>, Zhouchen Lin, and Tong Zhang <small>(<b>&alpha;-&beta; order</b>)</small></br>
-		  <em>Annual Conference on Learning Theory </em> (<b>COLT</b>), 2019
+			<b>Cong Fang</b>, Zhouchen Lin, and Tong Zhang <small>(<b>&alpha;-&beta; order</b>)</small>,</br>
+		  <em>Annual Conference on Learning Theory </em> (<b>COLT</b>), 2019.</br>
+		Propose a new kind of analysis to study non-convex objectives that have  continuous Hessian matrices.
 	</li>
 	
 	
 		<li>
 			SPIDER: Near-Optimal Non-Convex Optimization via Stochastic Path-Integrated Differential Estimator
 			[<a href="https://papers.nips.cc/paper/2018/hash/1543843a4723ed2ab08e18053ae6dc5b-Abstract.html">paper</a>][<a href="https://arxiv.org/abs/1807.01695">arXiv</a>]</br> 
-			<b>Cong Fang</b>,  Chris Junchi Li, Zhouchen Lin, and Tong Zhang <small>(<b>&alpha;-&beta; order</b>)</small></br>
-		  <em>Advances in Neural Information Processing Systems </em> (<b>NeurIPS</b>), 2018
+			<b>Cong Fang</b>,  Chris Junchi Li, Zhouchen Lin, and Tong Zhang <small>(<b>&alpha;-&beta; order</b>)</small>,</br>
+		  <em>Advances in Neural Information Processing Systems </em> (<b>NeurIPS</b>), 2018.</br>
+		Design a new technique that achieves the <b>first fastest</b> rate to find a stationary point  in  stochastic  non-convex optimization.
 	</li>
 	
 	
 			<li>
 			Mathematical Models of Overparameterized Neural Networks
 		[<a href="https://arxiv.org/abs/2012.13982">arXiv</a>]</br> 
-			<b>Cong Fang</b>,  Hanze Dong, and Tong Zhang </br>
-		  <em>Proceedings of the IEEE </em> (<b>PIEEE</b>), 2021
+			<b>Cong Fang</b>,  Hanze Dong, and Tong Zhang, </br>
+		  <em>Proceedings of the IEEE </em> (<b>the flagship journal of IEEE: PIEEE</b>), 2021.
 	</li>
 	
 				<li>
 			Accelerated First-Order Optimization Algorithms for Machine Learning
 		[<a href="https://ieeexplore.ieee.org/document/9146135">paper</a>]</br> 
-			Huan  Li*, <b>Cong Fang*</b>,  and Zhouchen Lin  <small>(<b>*equal contribution</b>)</small> </br>
-		  <em>Proceedings of the IEEE </em> (<b>PIEEE</b>), 2020
+			Huan  Li*, <b>Cong Fang*</b>,  and Zhouchen Lin  <small>(<b>*equal contribution</b>)</small>, </br>
+		  <em>Proceedings of the IEEE </em> (<b>the flagship journal of IEEE: PIEEE</b>), 2020.
 	</li>
 	
 
@@ -118,22 +133,32 @@ I received my PhD at Peking Univerity in 2019, advised by Prof. <a href="https:/
 <ul>
 	<li>
 			Accelerated Optimization in Machine Learning: First-Order Algorithms [<a href="https://www.springer.com/gp/book/9789811529092">book</a>]</br> 
-			Zhouchen Lin, Huan Li, and <b>Cong Fang</b>, Springer, 2020</br>		 
+			Zhouchen Lin, Huan Li, and <b>Cong Fang</b>, Springer, 2020.</br>		 
 		 <em>I am in charge of introducing stochastic and distributed algorithms (Chapters 5 and 6)<em>
 	</li>
 </ul>
 
 
 
-<h2><A name="Teaching"><font color="black">Teaching</front></A></h2>
+<h2><A name="Selected Talks"><font color="black">Selected Talks</front></A></h2>
 
 <ul>
-    None
+	  	<li> Layer-Peeled Model: Toward Understanding Well-Trained Deep Neural Networks</br> 
+	
+		  <em>University of Pennsylvania,</em> 2021.
+	</li>
+
+  	<li> Stochastic Nonconvex Optimization, SPIDER</br> 
+	
+		  <em>Guest lecture for EE539 at Princeton University, </em> invited by <a href="https://sites.google.com/view/cjin/home"><font color="black">Chi Jin</font></a>, 2021.
+	</li>
+	  	<li> Convex formulation of Overparameterized Deep Neural Networks</br> 
+	
+		  <em>Theory of Deep Learning Conference at Duke,</em> invited by <a href="https://users.cs.duke.edu/~rongge/"><font color="black">Rong Ge</font></a>, 2020.
+	</li>
+	
 </ul>
-<h2><A name="Students"><font color="black">Students</front></A></h2>
-<ul>
-    None
-</ul>
+
 
 
 <div id="footer">
