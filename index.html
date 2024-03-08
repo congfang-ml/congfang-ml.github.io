@@ -47,20 +47,24 @@
 
 <h2>Overview</h2>
 <p>
-	I am an assistant professor  at Peking University.  I was a postdoctoral researcher at University of Pennsylvania, hosted by Prof. <a href="http://stat.wharton.upenn.edu/~suw/">Weijie Su</a> and <a href="https://www.med.upenn.edu/long-lab/">Qi Long</a> in 2021, and at Princeton University  hosted by Prof. <a href="https://jasondlee88.github.io/"> Jason D. Lee</a> in 2020.   I received my Ph.D. at Peking Univerity, advised by Prof. <a href="https://zhouchenlin.github.io/">Zhouchen Lin</a>. I  also  work closely with Prof. <a href="http://tongzhang-ml.org/">Tong Zhang</a> at HKUST.
+	I am an assistant professor  at Peking University.  I was a postdoctoral researcher at University of Pennsylvania, hosted by Prof. <a href="http://stat.wharton.upenn.edu/~suw/">Weijie Su</a> and <a href="https://www.med.upenn.edu/long-lab/">Qi Long</a> in 2021, and at Princeton University  hosted by Prof. <a href="https://jasondlee88.github.io/"> Jason D. Lee</a> in 2020.   I received my Ph.D. at Peking Univerity, advised by Prof. <a href="https://zhouchenlin.github.io/">Zhouchen Lin</a>. I  also  work closely with Prof. <a href="http://tongzhang-ml.org/">Tong Zhang</a> at UIUC.
 	
 </p>
 <p>
 	My research interests are broadly in the machine learning algorithms and theory. I currently  work on various aspects of optimization and the foundation of deep learning. The topics  include, but are not limited to, 
 	<ul style="list-style-type:square; margin-top:13px;margin-bottom:0px;">
 		<li>
-<b>Optimization</b>:  non-convex opt., stochastic opt., distributed/federated opt.,  min-max opt., multi-agent learning, etc. I focus on designing faster algorithms and provide  more realistic upper/lower complexity bounds. 
+<b>Optimization and Sampling</b>:  convex and non-convex opt., stochastic opt., distributed/federated opt.,  min-max opt., gradient based sampling, etc. I focus on building more realistic mathematical foundation for solvers on  machine learning  models and designing faster algorithms. 
 			</li>
 		<li>
-			<b>Machine Learning and Deep Learning Theory</b>: complexity analysis, feature/representation learning analysis, etc.  I am interested in proposing new models or analyses to have a better theoretical understanding of machine learning models, including neural networks and foundation models.
+			<b>Deep Learning Theory</b>: complexity analysis, feature/representation learning analysis, implicit regularization, etc.  I am interested in proposing new models or analyses to have a better theoretical understanding of machine learning models, including neural networks.
 		</li>
 		<li>
-			<b>Applications </b>: new architectures/code package, auto-ml, learning based real-world applications. 
+			<b>AI Foundation</b>: data driven causal learning without prior knowledge, understand the emergence  of value and rules, etc.  I am interested in propose new theoretic frameworks and methodologies to read high-level AI.
+		</li>
+
+		<li>
+			<b>Applications </b>: new architectures/code package, LLM Training, efficient methods to collect and use data. 
 	</li>
 	</ul>
 	
@@ -79,6 +83,20 @@
 
 <h2><A name="Selected Papers"><font color="black">Selected Papers</font></A> <small>[<a href=paper-list.html>Full List</a>][<a href="https://scholar.google.com/citations?user=N2M9RPoAAAAJ&hl=en">Google Scholar</a>]</small></h2>
 <ul>
+
+		<li> The Implicit Bias of Heterogeneity towards Invariance and Causality
+			 [<a href="https://arxiv.org/abs/2312.03218">arXiv</a>]</br> 
+			Yang Xu<sup>1</sup>, Yihong Gu<sup>1</sup>,  <b>Cong Fang</b>,</br>
+		 Argue that the  heterogeneity of the data causes the model learning beyond association to invariance and causality. 
+	</li>
+
+
+		<li>
+			Accelerated Gradient Algorithms with Adaptive Subspace Search for Instance-Faster Optimization [<a href="https://arxiv.org/abs/2312.03218">arXiv</a>]</br> 
+			Yuanshi Liu, Hanzhen Zhao, Yang Xu, Pengyun Yue,  <b>Cong Fang</b>,</br>
+		  Propose adaptive optimization algorithms to achieve provably faster rates for Hessian degenerated problems.  
+	</li>
+
 	
 		<li>
 			Environment Invariant Linear Least Squares [<a href="https://arxiv.org/abs/2303.03092">arXiv</a>]</br> 
@@ -97,7 +115,7 @@
 	
 	<li>
 			Modeling from Features: a Mean-field Framework for Over-parameterized Deep Neural Network [<a href="https://arxiv.org/abs/2007.01452">arXiv</a>]</br> 
-			<b>Cong Fang</b>, Pengkun Yang, Jason D. Lee, and Tong Zhang <small>(<b>&alpha;-&beta; order</b>)</small>, </br>
+			<b>Cong Fang</b>, Jason D. Lee, Pengkun Yang,  and Tong Zhang <small>(<b>&alpha;-&beta; order</b>)</small>, </br>
 			  <em>Annual Conference on Learning Theory </em> (<b>COLT</b>), 2021.</br>
 		Provide a proof to show that  Gradient Descent finds a global minimum for deepnets in the mean-field regime. 
 	</li>
